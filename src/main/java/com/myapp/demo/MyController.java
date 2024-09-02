@@ -11,4 +11,8 @@ public class MyController {
 		return "API is good"; 
 	}
 	
+	@RequestMapping("api/ping")
+	public String sayPing() {
+		return "API Ping is good"; 
+	}
 }
